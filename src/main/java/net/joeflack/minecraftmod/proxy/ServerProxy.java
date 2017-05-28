@@ -1,5 +1,5 @@
 package net.joeflack.minecraftmod.proxy;
 
-public class ServerProxy {
+public class ServerProxy implements CommonProxy {
 
 }

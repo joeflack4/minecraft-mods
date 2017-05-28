@@ -1,14 +1,14 @@
 [
 {
-  "modid": "examplemod",
-  "name": "Example Mod",
-  "description": "Example placeholder mod.",
-  "version": "${version}",
+  "modid": "joey",
+  "name": "Joey's Mod",
+  "description": "A cool minecraft mod.",
+  "version": "0.1.0",
   "mcversion": "${mcversion}",
-  "url": "",
+  "url": "http://www.joeflack.net",
   "updateUrl": "",
-  "authorList": ["ExampleDude"],
-  "credits": "The Forge and FML guys, for making this example",
+  "authorList": ["Joe Flack"],
+  "credits": "Creator - Joe Flack",
   "logoFile": "",
   "screenshots": [],
   "dependencies": []
