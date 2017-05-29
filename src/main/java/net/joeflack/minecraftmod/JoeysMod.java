@@ -1,5 +1,7 @@
 package net.joeflack.minecraftmod;
 
+import net.joeflack.minecraftmod.init.ModBlocks;
+import net.joeflack.minecraftmod.init.ModItems;
 import net.joeflack.minecraftmod.proxy.CommonProxy;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
@@ -20,13 +22,16 @@ public class JoeysMod {
 	
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent event) {
-		
+		ModItems.init();
+		ModItems.register();
+		ModBlocks.init();
+		ModBlocks.register();		
 		System.out.println("Pre-initialization complete.");
 	}
 	
 	@EventHandler
 	public void init(FMLInitializationEvent event) {
-		
+		proxy.init();
 		System.out.println("Initialization complete.");
 	}
 	
